@@ -9,20 +9,37 @@
   <title>Frontend Mentor | Clipboard landing page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+ 
 </head>
+
 <body>
+  <section id="sponsors">
+
+  </section>
+  <section id="for-ios" class="flex flex-col items-center">
+    <h1 class="text-4xl font-bold mb-5">Clipboard for iOS and Mac OS</h1>
+    <p class="px-40 text-center mb-5">
+      Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
+      and you’re ready to start adding to your clipboard.
+    </p>
+    <div class="mb-20">
+      <input class="bg-green-500 text-white p-4 text-2xl rounded-full" 
+      type="button"
+      value="Download for iOS"/>
+      <input class="bg-blue-500 text-white p-4 text-2xl rounded-full" 
+      type="button"
+      value="Download for Mac"/>
+    </div>
+  </section>
+ 
 
   A history of everything you copy
 
   Clipboard allows you to track and organize everything you 
   copy. Instantly access your clipboard on all your devices.
 
-  Download for iOS
-  Download for Mac
+
+ 
 
   Keep track of your snippets
 
@@ -63,25 +80,34 @@
 
   Quick preview of all snippets on your Clipboard for easy access.
 
-  Clipboard for iOS and Mac OS
+  
 
-  Available for free on the App Store. Download for Mac or iOS, sync with iCloud 
-  and you’re ready to start adding to your clipboard.
+  
 
-  Download for iOS
-  Download for Mac
-
-  FAQs
-  Contact Us
-  Privacy Policy
-  Press Kit
-  Install Guide
+  
   
   <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+   <div class="flex">
+    <div>
+      <img src="images/logo.svg" alt="">
+    </div>
+    <div>
+      <p>FAQs</p>
+      <p>Contact Us</p>
+    </div>
+    <div>
+      <p>Privacy Policy</p>
+      <p>Press Kit</p>
+    </div>
+    <div class="pr-60">
+      <p>Install Guide</p>
+    </div>
+    <div class="flex justify-center items-center">
+      <img src="images/icon-facebook.svg" alt="">
+      <img src="images/icon-twitter.svg" alt="">
+      <img src="images/icon-instagram.svg" alt="">
+    </div>
+   </div>
   </footer>
 </body>
 </html>
